@@ -22,14 +22,15 @@ Apply the filters using cv2.filter2D() for each respective filters.
 Plot the images of the original one and the filtered one using plt.figure() and cv2.imshow().
 
 ### Program:
-### Developed By   :Silambarasan K
-### Register Number:2122212300101
-
+```
+Developed By   :Silambarasan K
+Register Number:2122212300101
+```
 
 ### 1. Smoothing Filters
 
-i) Using Averaging Filter
-```
+### i) Using Averaging Filter
+```py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -50,8 +51,8 @@ plt.axis('off')
 
 
 ```
-ii) Using Weighted Averaging Filter
-```
+### ii) Using Weighted Averaging Filter
+```py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -73,8 +74,8 @@ plt.axis('off')
 
 
 ```
-iii) Using Gaussian Filter
-```
+### iii) Using Gaussian Filter
+```py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -98,8 +99,8 @@ plt.axis('off')
 
 ```
 
-iv) Using Median Filter
-```
+### iv) Using Median Filter
+```py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -124,8 +125,8 @@ plt.axis('off')
 ```
 
 ### 2. Sharpening Filters
-i) Using Laplacian Kernal
-```
+### i) Using Laplacian Kernal
+```py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -148,8 +149,8 @@ plt.axis('off')
 
 
 ```
-ii) Using Laplacian Operator
-```
+### ii) Using Laplacian Operator
+```py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
