@@ -1,11 +1,12 @@
-# Implementation-of-Filters
-## Aim:
+## Ex-6 Implementation-of-Filters
+**Date: 06/04/2023
+**### Aim:
 To implement filters for smoothing and sharpening the images in the spatial domain.
 
-## Software Required:
+### Software Required:
 Anaconda - Python 3.7
 
-## Algorithm:
+### Algorithm:
 ### Step1:
 Import cv2, matplotlib.py libraries and read the saved images using cv2.imread().
 
@@ -21,7 +22,7 @@ Apply the filters using cv2.filter2D() for each respective filters.
 ### Step5:
 Plot the images of the original one and the filtered one using plt.figure() and cv2.imshow().
 
-## Program:
+### Program:
 ```
 Developed By   :Silambarasan K
 Register Number:2122212300101
@@ -173,7 +174,7 @@ plt.axis('off')
 
 ```
 
-## OUTPUT:
+### OUTPUT:
 ### 1. Smoothing Filters
 
 
@@ -200,5 +201,5 @@ ii) Using Laplacian Operator
 ![a6](https://user-images.githubusercontent.com/94525786/230839070-2655c394-f442-4a8a-bb71-9c6a50aca178.png)
 
 
-## Result:
+### Result:
 Thus the filters are designed for smoothing and sharpening the images in the spatial domain.
