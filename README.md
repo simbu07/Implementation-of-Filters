@@ -1,5 +1,5 @@
 ## Ex-6 Implementation-of-Filters
-**Date: 06/04/2023**
+
 ### Aim:
 To implement filters for smoothing and sharpening the images in the spatial domain.
 
